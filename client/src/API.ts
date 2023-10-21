@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from "axios"
 
 
-const baseUrl: string = "http://localhost:8080"
+const baseUrl: string = "https://note-keeping-app-virid.vercel.app/"
 
 export const getNotes = async (): Promise<AxiosResponse<ApiDataType>> => {
   try {
