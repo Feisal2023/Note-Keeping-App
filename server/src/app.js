@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors(
   {
-  origin: ["http://localhost:8080"],
+  origin: ["https://note-keeping-app-virid.vercel.app/"],
   methods: ["POST", "GET", "PUT", "DELETE"],
   credentials: true
 }
